@@ -1,0 +1,19 @@
+{
+  "min_matching_words": 1,
+  "max_addresses_per_path": 10,
+  "highlight_threshold": 1,
+  "word_match_logging": true,
+  "learning_enabled": false,
+  "adaptive_search": false,
+  "word_weight_multiplier": 1.0,
+  "pattern_recognition": false,
+  "position_aware_matching": false,
+  "health_check_interval": 60,
+  "max_memory_percent": 90,
+  "max_checkpoint_size_mb": 50,
+  "checkpoint_compression": false,
+  "paths_to_check": [
+    "m/44'/0'/0'/0",
+    "m/84'/0'/0'/0"
+  ]
+}

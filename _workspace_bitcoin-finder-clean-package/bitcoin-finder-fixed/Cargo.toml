@@ -1,0 +1,30 @@
+[package]
+name = "bitcoin-finder"
+version = "0.3.0"
+edition = "2021"
+
+[dependencies]
+bip39 = "=1.0.1"
+bitcoin = "=0.29.2"
+rayon = "=1.7.0"
+secp256k1 = { version = "=0.26.0", features = ["rand-std", "recovery"] }
+rand = { version = "=0.8.5", features = ["small_rng"] }
+memmap2 = "=0.5.10"
+crossbeam-channel = "=0.5.8"
+num_cpus = "=1.15.0"
+serde = { version = "=1.0.163", features = ["derive"] }
+serde_json = "=1.0.96"
+chrono = "=0.4.24"
+signal-hook = "=0.3.15"
+clap = "=2.34.0"
+unicode-width = "=0.1.10"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+overflow-checks = false
+debug-assertions = false
+incremental = false
+rpath = false

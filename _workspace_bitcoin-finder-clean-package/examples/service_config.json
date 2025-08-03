@@ -1,0 +1,25 @@
+{
+  "min_matching_words": 1,
+  "max_addresses_per_path": 20,
+  "highlight_threshold": 2,
+  "word_match_logging": true,
+  "learning_enabled": true,
+  "min_score_threshold": 0.3,
+  "max_high_scores": 200,
+  "adaptive_search": true,
+  "word_weight_multiplier": 2.0,
+  "pattern_recognition": true,
+  "position_aware_matching": true,
+  "health_check_interval": 30,
+  "max_memory_percent": 85,
+  "max_checkpoint_size_mb": 100,
+  "checkpoint_compression": true,
+  "paths_to_check": [
+    "m/44'/0'/0'/0",
+    "m/44'/0'/0'/1",
+    "m/49'/0'/0'/0",
+    "m/49'/0'/0'/1",
+    "m/84'/0'/0'/0",
+    "m/84'/0'/0'/1"
+  ]
+}

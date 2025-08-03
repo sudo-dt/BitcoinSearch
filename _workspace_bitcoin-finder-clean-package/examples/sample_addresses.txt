@@ -1,0 +1,22 @@
+# Sample Bitcoin addresses for testing
+# These are well-known addresses from the blockchain
+
+# Genesis block address
+1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+
+# Early Bitcoin addresses
+12c6DSiU4Rq3P4ZxziKxzrL5LmMBrzjrJX
+1HLoD9E4SDFFPDiYfNYnkBLQ85Y51J3Zb1
+1FvzCLoTPGANNjWoUo6jUGuAG3wg1w4YjR
+15ubicBBWFnvoZLT7GiU2qxjRaKJPdkDMG
+
+# SegWit addresses
+3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+3Cbq7aT1tY8kMxWLbitaG7yT6bPbKChq64
+
+# Bech32 addresses
+bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kv8f3t4
+bc1qrp33g0q5c5txsp9arysrx4k6zdkfs4nce4xj0gdcccefvpysxf3qccfmv3
+
+# Note: These are for testing purposes only
+# The tool will check generated mnemonics against these addresses

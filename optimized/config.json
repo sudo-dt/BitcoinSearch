@@ -1,0 +1,22 @@
+{
+  "max_addresses_per_path": 20,
+  "learning_enabled": true,
+  "min_score_threshold": 0.5,
+  "max_high_scores": 100,
+  "adaptive_search": true,
+  "word_weight_multiplier": 1.5,
+  "pattern_recognition": true,
+  "position_aware_matching": true,
+  "health_check_interval": 60,
+  "max_memory_percent": 90,
+  "checkpoint_interval": 900,
+  "checkpoint_compression": true,
+  "paths_to_check": [
+    "m/44'/0'/0'/0",
+    "m/44'/0'/0'/1",
+    "m/49'/0'/0'/0",
+    "m/49'/0'/0'/1",
+    "m/84'/0'/0'/0",
+    "m/84'/0'/0'/1"
+  ]
+}
